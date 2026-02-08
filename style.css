@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.header h1 {
+  font-size: 3em;
+  font-variant: small-caps;
+
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.secao1 p{
+  font-size: 1.5em;
+  padding: 50PX 20PX;
+  line-height: 60PX;
+}
+
+.secao2 {
+  color: white;
+  height: 700px;
+  background: black url(imagens/background001.jpg) center center / cover no-repeat  fixed;
+  padding-left: 26px;
+  position: relative;
+}
+
+.secao2 p{
+  max-width: 400px;
+  font-size: 1.5em;
+  line-height: 60PX;
+  padding: 16PX 16PX 16PX 10PX;
+  background-color: rgba(26, 26, 26, 0.817);
+  position: absolute;
+  left: 180px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secao3 p{
+  font-size: 1.5em;
+  padding-left: 20PX;
+  padding-top: 50PX;
+  line-height: 60PX;
+}
+
+.secao3 .segundoParag {
+  padding-bottom: 60px;
+}
+
+.secao4 {
+  color: white;
+  height: 700px;
+  background: black url(imagens/background002.jpg) center center / cover no-repeat  fixed;
+  padding-left: 16px;
+  position: relative;
+}
+
+.secao4 p{
+  max-width: 400px;
+  font-size: 1.5em;
+  line-height: 50PX;
+  padding: 16PX 16PX 16PX 10PX;
+  background-color: rgba(26, 26, 26, 0.621);
+  position: absolute;
+  left: 180px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secao5 p{
+  font-size: 1.5em;
+  padding-left: 20PX;
+  padding-top: 50PX;
+  line-height: 60PX;
+}
+
+.secao5 .segundoParag {
+  padding-bottom: 60px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
